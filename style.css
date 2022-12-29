@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 15px 150px;
+  padding: 15px 200px;
   background-color: #1f2937;
 }
 
@@ -22,4 +22,45 @@ body {
 .header-link {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.Hero-body {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  padding: 8px 30px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.left-content {
+  max-width: 397px;
+}
+
+.right-content {
+  max-width: 397px;
+  min-height: 18px;
+  color: #f9faf8;
+  background-color: cornflowerblue;
+  text-align: center;
+  padding: 131px 180px;
 }
