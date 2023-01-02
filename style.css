@@ -2,14 +2,17 @@ body {
   margin: 0;
   font-family: "Roboto";
 }
-.header {
+.header,
+.header2 {
   list-style: none;
   margin: 0px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 15px;
   padding: 15px 200px;
   background-color: #1f2937;
+  color: #e5e7eb;
 }
 
 .header-logo {
